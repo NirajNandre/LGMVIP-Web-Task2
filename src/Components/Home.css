@@ -1,0 +1,32 @@
+.home{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("C:\Users\Suyash\Desktop\LGMVIP_Web-task2\web-app\src\7123.jpg");
+    background: rgb(21,210,210);
+    background: radial-gradient(circle, rgba(21,210,210,1) 0%, rgba(47,203,201,1) 51%, rgba(9,112,232,1) 99%, rgba(21,150,150,1) 100%);
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    flex: 1 1 640px;
+    margin-top: 10px;
+    margin-left: 600px;
+    padding: 50px 25px;
+}
+.home .content p{
+    justify-content: left;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(2, 2, 2);
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
